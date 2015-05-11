@@ -1,0 +1,33 @@
+﻿@model Helpify_v3.Models.IndexPageSuperVm 
+
+<h1>Your Projects</h1>
+<br />
+
+<div class="container">
+
+    <a id="createNewButton" href="@Url.Action("Create", "Projects")">Create New Project</a> 
+    <br />
+    <br />
+    
+
+    @foreach (var p in Model.AllProjectsListVm.ProjectList)
+    {
+        <div id="projectListItem">
+            <a href="@Url.Action("Details", "Projects", new {id = p.ProjectId})"><h3>@p.Title</h3><span>@p.Description</span></a>
+            <br />Posted By:@p.UserName
+            <br />
+            <div id="buttonGroupBox">
+                <a href="@Url.Action("ProjectMessage", "Messages", new { id = p.ProjectId })"><span id="customButtonMed">Messages</span></a>
+
+                <a href="@Url.Action("Edit", "Projects", new { id = p.ProjectId })"><span id="customButtonMed">Edit</span></a>
+
+                <a href="@Url.Action("Delete", "Projects", new { id = p.ProjectId })"><span id="customButtonMed">Delete</span></a>
+            </div>
+            <br />
+            <br />
+            
+            <hr />
+            
+        </div>
+    }
+</div>

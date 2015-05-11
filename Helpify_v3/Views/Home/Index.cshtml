@@ -1,0 +1,49 @@
+﻿@model Helpify_v3.Models.IndexPageSuperVm
+
+
+@{
+    ViewBag.Title = "Helpify";
+}
+
+<div class="container">
+
+    
+    <div id="tileholder" class="container">
+        <h1 id="sectionHeaderMain">Categories</h1>
+        @foreach (var c in Model.CategoriesListVm.CategoriesList)
+        {
+            <div>
+                <a id="categoryTile" href="@Url.Action("Electronic", "Category", new { id = c.CategoryId, catName = c.CategoryName })">@c.CategoryName</a>
+
+            </div>
+        }
+
+    </div>
+
+    <div class="container">
+        <h1 id="sectionHeaderMain">Latest Projects</h1>
+        
+
+        @foreach (var p in Model.AllProjectsListVm.ProjectList)
+        {
+            <div id="projectListItem">
+                <a href="@Url.Action("Details", "Projects", new {id = p.ProjectId})"><h3>@p.Title</h3><span>@p.Description</span></a>
+                <br /><span id="postedbyText">Posted By: @p.UserName,</span> <span id="locationText">@p.Location</span>
+                <div id="homeIllHelpButtonBox">
+                    <a id="customButtonMed" href="@Url.Action("Create", "Messages", new { Id = p.ProjectId })">I'll Help!</a>
+                </div>
+                <br />
+                <br />
+                <hr />
+            </div>
+        }
+
+    </div>
+    
+    
+
+
+    
+
+</div>
+

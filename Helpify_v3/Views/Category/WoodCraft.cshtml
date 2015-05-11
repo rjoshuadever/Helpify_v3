@@ -1,0 +1,17 @@
+﻿@model Helpify_v3.Models.ProjectByCategoryVm
+@{
+    ViewBag.Title = "Woodcraft";
+}
+
+<h2>Woodcraft</h2>
+<div class="container">
+    @foreach (var p in Model.ProjectByCategoryList)
+    {
+        <div id="projectListItem">
+            <a href="@Url.Action("Details", "Projects", new {id = p.ProjectId})"><h3>@p.Title</h3></a>
+            <div>@p.Description</div>
+            <h4>@p.Location</h4>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,14 @@
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Helpify_v3.Data.Model.dll.config
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Helpify_v3.Data.Model.dll
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Helpify_v3.Data.Model.pdb
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\EntityFramework.dll
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\EntityFramework.xml
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\obj\Debug\Helpify_v3.Data.Model.csprojResolveAssemblyReference.cache
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\obj\Debug\Helpify_v3.Data.Model.dll
+c:\users\josh\documents\visual studio 2013\Projects\Helpify_v3\Helpify_v3.Data.Model\obj\Debug\Helpify_v3.Data.Model.pdb

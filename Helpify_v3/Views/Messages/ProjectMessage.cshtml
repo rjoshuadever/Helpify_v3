@@ -1,0 +1,27 @@
+﻿@model Helpify_v3.Models.MessageListVm
+@{
+    ViewBag.Title = "ProjectMessage";
+}
+
+<h2>Messages for this Project</h2>
+
+<div class="container">
+    @foreach (var m in Model.MessagesByProject)
+    {
+        <div id="projectListItem">
+
+            <div><span id="postedbyText">@m.SenderName</span></div>
+            <div>@m.MessageBody</div>
+
+            <hr />
+
+        </div>
+
+    }
+
+
+    <div id="homeIllHelpButtonBox">
+        <a id="customButtonMed" href="@Url.Action("MyProjects", "Home")">MyProjects</a>
+    </div>
+</div>
+

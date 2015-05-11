@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpify_v3", "Helpify_v3\Helpify_v3.csproj", "{F60E50C9-CB62-4ED5-809E-432FD5DD2F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpify_v3.Data", "Helpify_v3.Data\Helpify_v3.Data.csproj", "{2353BD34-620C-4AF3-A14D-DE9B3EF5D030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpify_v3.Data.Model", "Helpify_v3.Data.Model\Helpify_v3.Data.Model.csproj", "{0E254E12-AE1F-4FAC-BD5A-49925E177154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60E50C9-CB62-4ED5-809E-432FD5DD2F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60E50C9-CB62-4ED5-809E-432FD5DD2F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60E50C9-CB62-4ED5-809E-432FD5DD2F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60E50C9-CB62-4ED5-809E-432FD5DD2F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2353BD34-620C-4AF3-A14D-DE9B3EF5D030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2353BD34-620C-4AF3-A14D-DE9B3EF5D030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2353BD34-620C-4AF3-A14D-DE9B3EF5D030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2353BD34-620C-4AF3-A14D-DE9B3EF5D030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E254E12-AE1F-4FAC-BD5A-49925E177154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E254E12-AE1F-4FAC-BD5A-49925E177154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E254E12-AE1F-4FAC-BD5A-49925E177154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E254E12-AE1F-4FAC-BD5A-49925E177154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

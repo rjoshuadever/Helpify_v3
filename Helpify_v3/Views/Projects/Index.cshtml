@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Helpify_v3.Data.Model.Project>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="container">
+    <div id="projectListItem">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.CategoryName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th></th>
+            </tr>
+
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Details", new {id = item.ProjectId })">@Html.DisplayFor(modelItem => item.Title)</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    @*<td style="display:inline-block">
+                        <button class="btn btn-default">@Html.ActionLink("Edit", "Edit", new { id = item.ProjectId })</button> <br/>
+                        <button class="btn btn-default">@Html.ActionLink("Details", "Details", new { id = item.ProjectId })</button> <br />
+                        <button class="btn btn-danger">@Html.ActionLink("Delete", "Delete", new { id = item.ProjectId })</button><br />
+                      </td>*@
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+
